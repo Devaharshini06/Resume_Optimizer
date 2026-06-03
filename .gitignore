@@ -1,0 +1,89 @@
+# =========================
+
+# Python
+
+# =========================
+
+**pycache**/
+*.py[cod]
+*$py.class
+
+venv/
+.venv/
+env/
+ENV/
+
+*.log
+*.sqlite3
+
+uploads/
+generated_docs/
+
+.env
+
+# =========================
+
+# FastAPI
+
+# =========================
+
+.pytest_cache/
+.coverage
+htmlcov/
+
+# =========================
+
+# VS Code
+
+# =========================
+
+.vscode/
+
+# =========================
+
+# OS Files
+
+# =========================
+
+.DS_Store
+Thumbs.db
+
+# =========================
+
+# Node.js / Next.js
+
+# =========================
+
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+
+frontend/.env
+frontend/.env.local
+
+# =========================
+
+# TypeScript
+
+# =========================
+
+frontend/*.tsbuildinfo
+
+# =========================
+
+# Git
+
+# =========================
+
+*.orig
+
+# =========================
+
+# Cache
+
+# =========================
+
+.cache/
+temp/
+tmp/
